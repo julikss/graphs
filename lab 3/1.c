@@ -30,7 +30,7 @@ double** mulmr(double coef, double **matrix, int rows, int cols){
 
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
 
-char ProgName[]="Лабораторна робота 3";
+char ProgName[]="Г‹Г ГЎГ®Г°Г ГІГ®Г°Г­Г  Г°Г®ГЎГ®ГІГ  3";
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpszCmdLine, int nCmdShow)
 {
@@ -51,7 +51,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpszCmdLi
     if(!RegisterClass(&w))
         return 0;
     hWnd=CreateWindow(ProgName,
-        "ЛР 3 (напрямлений граф). Виконала Ю.Д. Легенька",
+        "Г‹Гђ 3 (Г­Г ГЇГ°ГїГ¬Г«ГҐГ­ГЁГ© ГЈГ°Г Гґ). Г‚ГЁГЄГ®Г­Г Г«Г  Гћ.Г„. Г‹ГҐГЈГҐГ­ГјГЄГ ",
         WS_OVERLAPPEDWINDOW,
         400,
         100,
