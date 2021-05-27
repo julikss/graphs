@@ -333,14 +333,6 @@ void kraskal(double **A, int* W[11][11]) {
         for (int l=0; l<11; l++) {
             sum+=VisitedM[l];
         }
-
-        //выход из цикла если граф не связанный
-        sumVisited=0;
-        for (int i = 0; i < 11; i++) {
-            for (int j = 0; j < 11; j++) {
-                sumVisited+=cycleVisited[i][j];
-            }
-        }
     }
 }
 
